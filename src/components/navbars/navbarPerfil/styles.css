@@ -1,0 +1,53 @@
+div.navbar-perfil{
+    display: flex;
+    justify-content: left;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: 0;
+    background-color: black;
+    border-bottom: 0.1px solid rgb(87, 86, 86);
+    height: 60px;
+}
+
+@media screen and (max-width: 500px){
+    div.navbar-perfil{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 987px) and (min-width: 501px){
+    div.navbar-perfil{
+        width: 80%;
+        left: 20%;
+    }
+}
+
+@media screen and (min-width: 988px){
+    div.navbar-perfil{
+        width: 60%;
+        left: 10%;
+    }
+}
+
+div.navbar-perfil-div{
+    margin: 0 20px;
+}
+
+
+div.perfil-nick{
+    font-size: 16px;
+}
+
+div.navabr-perfil-tweets{
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+    text-align: left;
+}
+
+div.navabr-perfil-tweets > *{
+    padding: 0 0;
+}

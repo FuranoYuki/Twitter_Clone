@@ -1,0 +1,54 @@
+div.navbar-home{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: 0;
+    background-color: black;
+    border-bottom: 0.1px solid rgb(87, 86, 86);
+    height: 60px;
+}
+
+@media screen and (max-width: 500px){
+    div.navbar-home{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 987px) and (min-width: 501px){
+    div.navbar-home{
+        width: 80%;
+        left: 20%;
+    }
+}
+
+@media screen and (min-width: 988px){
+    div.navbar-home{
+        width: 60%;
+        left: 10%;
+    }
+}
+
+div.navbar-home-user{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+img.navbar-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 501px){
+    div.navbar-home-icon{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,36 @@
+div.footer-bar{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    font-size: 22px;
+    padding: 10px 0;
+    z-index: 1;
+    border-top: 0.1px solid rgb(87, 86, 86);
+    align-items: center;
+    background-color: black;
+}
+
+@media screen and (max-width: 500px){
+    div.footer-bar{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px){
+    div.footer-bar{
+        display: none;
+    }
+}
+
+
+div.icons > *{
+    text-decoration: none;
+    color: gray;
+}
+
+div.icons> *:hover{
+    color: purple;
+    transition: 0.5s;
+
+}

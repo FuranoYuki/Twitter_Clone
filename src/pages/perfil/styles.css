@@ -1,0 +1,102 @@
+div.perfil{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 60px 0;
+}
+
+@media screen and (min-width: 501px) and (max-width: 987px){
+    div.perfil{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 988px){
+    div.perfil{
+        width: 60%;
+    }
+}
+
+div.perfil-cover > img{
+    width: 100%;
+    height: 130px;
+}
+
+div.perfil-social{
+    color: rgb(99, 98, 98);
+    font-size: 14px;
+}
+
+div.perfil-social > *{
+    padding: 4px 15px;
+}
+
+div.social-perfil{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    max-height: 50px;
+    align-items: center;
+}
+
+div.social-image{
+    position: relative;
+    top: -20px;
+    left: 0;
+}
+
+div.social-image > img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+div.social-info{
+    display: flex;
+    color: blueviolet;
+    padding: 5px 0;
+}
+
+div.social-info > *{
+    padding-left: 10px;
+}
+
+div.perfil-nick{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+div.perfil-code{
+    padding: 2px 15px;
+}
+
+div.perfil-description{
+    color: white;
+    padding-top: 5px;
+}
+
+div.perfil-datas{
+    display: flex;
+}
+
+span.data-numb{
+    color: white;
+}
+
+div.datas{
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+div.perfil-twitter{
+    display: flex;
+}
+
+div.perfil-twitter > *{
+    padding: 0 10px;
+}
