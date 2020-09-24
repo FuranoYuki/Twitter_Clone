@@ -1,0 +1,62 @@
+div.password-reset{
+    width: 100%;
+    height: 100%;
+}
+
+div.password-reset-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #66757f;
+    border-bottom: 2px solid #e1e8ed;
+    padding: 10px 5%;
+    font-size: 16px;
+}
+
+div.password-reset-nav > svg{
+    color: #1da1f2;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+div.password-reset-content{
+    padding: 0 5%;
+    width: 500px;
+    min-width: 500px;
+}
+
+div.password-reset-header{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    padding: 50px 0;
+}
+
+div.password-reset-text{
+    font-size: 14px;
+}
+
+form > div.password-reset-input > input{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+
+div.password-reset-input > input:focus{
+    border: 1px solid #1da1f2;
+}
+
+form >  button.password-reset-search{
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #1da1f2;
+    color: white;
+    margin-top: 30px;
+    border: none;
+}
+
+form > button.password-reset-search:hover{
+    background-color: #006dbf;
+}

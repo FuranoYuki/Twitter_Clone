@@ -1,0 +1,31 @@
+div.news{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-top: 0.1px solid rgb(47, 51, 54);
+}
+
+div.news:hover{
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+div.news-font{
+    display: flex;
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+div.news-description{
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+img.news-image-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}

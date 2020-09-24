@@ -1,0 +1,175 @@
+div.logout{
+    width: 100%;
+    height: 100%;
+}
+
+div.logout-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row-reverse;
+}
+
+div.logout-content > *{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.logout-black{
+    background-color: black;
+    padding: 20px 0;
+    height: 100%;
+}
+
+div.logout-black-content{
+    text-align: left;
+    max-width: 80%;
+}
+
+div.logout-black-icon{
+    font-size: 40px;
+}
+
+div.logout-black-header{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+div.logout-black-mess{
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+div.logout-black-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+a.logout-black-buttons-login{
+    border: 0.5px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+a.logout-black-buttons-login:hover{
+    background-color: rgba(29, 161, 242, 0.1);
+}
+
+a.logout-black-buttons-signup{
+    background-color: rgb(29, 161, 242);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+a.logout-black-buttons-signup:hover{
+    background-color: rgb(26, 145, 218);
+}
+
+div.logout-blue{
+    font-size: 17px;
+    font-weight: 600;
+    background: rgb(85, 158, 255);
+    height: 100%;
+    padding: 0 10%;
+}
+
+div.logout-blue-content-topic{
+    margin: 50px 0;
+}
+
+div.logout-blue-content-topic > svg{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+div.logout-footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    color: rgb(110, 118, 125);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+    height: auto;
+}
+
+div.logout-footer-buttons{
+    padding: 30px 10px;
+    width: 100%;
+    justify-content: space-around;
+    display: none;
+}
+
+a.footer-buttons-signup{
+    color: white;
+    padding: 10px 0;
+    background-color: rgb(29, 161, 242);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    width: 45%;
+    cursor: pointer;
+}
+
+a.footer-buttons-signup:hover{
+    background-color: rgb(26, 145, 218);
+}
+
+a.footer-buttons-login{
+    border: 0.5px solid rgb(29, 161, 242);
+    color: rgb(29, 161, 242);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 20px;
+    width: 45%;
+    cursor: pointer;
+}
+
+a.footer-buttons-login:hover{
+    background-color: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+}
+
+div.logout-footer-topic{
+    font-size: 12px;
+    padding: 10px;
+}
+
+div.logout-footer-topic:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 799px){
+    div.logout-content{
+        flex-direction: column;
+    }
+
+    div.logout-content > *{
+        width: 100%;
+    }
+
+    div.logout-footer-buttons{
+        display: flex;
+    }
+
+    div.logout-footer-topic{
+        padding: 5px;
+        cursor: pointer;
+    }
+}

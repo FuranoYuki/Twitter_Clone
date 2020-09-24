@@ -1,0 +1,28 @@
+div.trending{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 0.1px solid rgb(47, 51, 54);    
+}
+
+div.trending:hover{
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+div.trending-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+div.trending-descriptions{
+    margin: 10px 0;
+}
+
+div.trending-social{
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+
+}
